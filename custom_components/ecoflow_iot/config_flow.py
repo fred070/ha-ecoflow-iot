@@ -49,12 +49,14 @@ from .const import (
     DOMAIN,
     REGION_EU,
     REGION_GLOBAL,
+    REGION_ASIA,
     RESET_ENERGY_KEYS,
 )
 
 _REGION_OPTIONS = [
     SelectOptionDict(value=REGION_EU, label="Europe (api-e.ecoflow.com)"),
     SelectOptionDict(value=REGION_GLOBAL, label="Global / US (api.ecoflow.com)"),
+    SelectOptionDict(value=REGION_ASIA, label="Asia (api-a.ecoflow.com)"),
 ]
 
 
